@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: black;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.home__logo {
+    width: 317px;
+    height: 328px;
+    margin-bottom: 147px;
+}
+
+.home__button{
+    width: 199px;
+    height: 64px;
+    background: linear-gradient(97.14deg, #ED802D 39.45%, #F24268 109.39%);
+    box-shadow: 0px 4px 8px rgba(27, 26, 26, 0.15);
+    border-radius: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: aliceblue;
+}
