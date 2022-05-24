@@ -21,8 +21,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: auto;
-    
+    justify-content: center;
+    height: 100%;
+    margin-top: 110px;
+    margin-right: auto;
 }
 
 .home__logo {

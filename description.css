@@ -22,14 +22,14 @@ a {
     height: 86px;
     margin-top: 40px;
     margin-left: 40px;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
 }
 
 .description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 88px;
+    margin-bottom: 158px;
 }
 
 .description__title {
@@ -43,7 +43,7 @@ a {
     font-size: 40px;
     line-height: 60px;
     color: aliceblue;
-    margin-bottom: 126px;
+    margin-bottom: 58px;
 }
 
 .description__paragraph {
@@ -58,7 +58,7 @@ a {
     line-height: 38px;
     text-align: center;
     color: aliceblue;
-    margin-bottom: 126px;
+    margin-bottom: 58px;
 }
 
 .description__button {
