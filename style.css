@@ -1,9 +1,43 @@
+
 html, body {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
+
 canvas {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+  background: none;
+  position: fixed;
+}
+
+.back__arrow {
+  width: 12px;
+  height: 24px;
+  margin-right: 14px;
+}
+
+.back__text {
+  width: 67px;
+  height: 38px;
+  left: 95px;
+  top: 939px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: aliceblue;
 }

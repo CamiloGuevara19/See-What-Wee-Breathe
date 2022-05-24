@@ -35,7 +35,7 @@ ubicaciones[0]={
     nombre: "San Antonio (loma)",
     posX: 693,
     posY: 301,
-    valor: 200,
+    valor: 100,
     }
     ubicaciones[4]={
     nombre: "Tequendama",
@@ -47,7 +47,7 @@ ubicaciones[0]={
     nombre: "Caney",
     posX: 844,
     posY: 556,
-    valor: 200,
+    valor: 180,
     }
     ubicaciones[6]={
     nombre: "Unicentro",
@@ -81,8 +81,8 @@ function draw (){
 
 
 function windowResized(){
-     w = windowWidth;
-     h = windowHeight;
+    w = windowWidth;
+    h = windowHeight;
     resizeCanvas(w, h);
   }
 
@@ -106,10 +106,12 @@ function windowResized(){
 function mousePressed(){
     
     ubicaciones.forEach(actual =>{
-       if(actual.posX-23 < mouseX && actual.posX+23>mouseX&&actual.posY-23<mouseY&&actual.posY+23>mouseY){
+      if(actual.posX-23 < mouseX && actual.posX+23>mouseX&&actual.posY-23<mouseY&&actual.posY+23>mouseY){
         localStorage.setItem('nombre', actual.nombre);
         localStorage.setItem('valor', actual.valor);
         console.log(actual.valor + ":" + actual.nombre)
-       }
+
+        window.location.href = "./index.html";
+      }
     })
 }

@@ -80,6 +80,7 @@ a {
     flex-direction: row;
     align-items: center;
     margin-left: 40px;
+    background-color: none;
 }
 
 .back__arrow {
